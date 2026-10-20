@@ -1,0 +1,5 @@
+# Correlation (Pearson and Spearman)
+x = c(5, 3, 6, 8, 3, 2, 7)
+y = c(12, 23, 27, 43, 54, 35, 60)
+print(cor(x, y, method = "pearson"))
+print(cor(x, y, method = "spearman"))
